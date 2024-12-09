@@ -12,22 +12,6 @@ This project provides a Retrieval-Augmented Generation (RAG)-based Virtual Assis
 
 ---
 
-## Installation
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/<your-username>/visa-support-va.git
-cd visa-support-va
-```
-
-### 3. Install Dependencies
-Make sure you have Python 3.8+ installed. Install the required libraries:
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## Usage
 
 ### 1. Scrape and Prepare Data
