@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+fitz
+sentence-transformers
+transformers
+faiss-cpu
+torch
+numpy
