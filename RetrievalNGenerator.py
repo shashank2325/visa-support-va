@@ -106,9 +106,12 @@ def generate_answer(query, retrieved_passages):
     
     outputs = generator.generate(
     **inputs,
-    max_new_tokens=500,
-    repetition_penalty=3.5, 
+    max_new_tokens=250,
+    repetition_penalty=3.5,
     num_beams=4,
+    temperature=0.7,
+    top_k=50,
+    top_p=0.9,
     do_sample=True
 )
 
